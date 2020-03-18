@@ -1,0 +1,59 @@
+
+html, body {
+    height: 100%;
+    background: rgb(14, 13, 13);
+}
+#canvas {
+    width: 600px;
+    height: 600px;
+        position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -300px;
+    display: block;
+  box-shadow: 1px 10px 100px 20px rgba(240, 5, 5, 0.75);
+  border: 5px solid rgb(209, 19, 19);
+ 
+}
+
+
+.left_button, .right_button {
+ text-transform: uppercase;
+width: 120px;
+height: 80px;
+font-size: 16px;
+background-color: #0c0c0c;
+color: white;
+box-shadow: 1px 2px 25px 7px rgba(240, 5, 5, 0.75);
+border: 2px solid rgb(209, 19, 19);
+border-radius: 45%;
+font-family: 'Emilys Candy', cursive;
+
+}
+
+.right_button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 360px 55px;
+}
+
+.left_button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 360px -200px;
+}
+
+
+@media screen and (max-width: 400px){
+
+    #canvas {
+        width: 400px;
+        height: 400px;
+            position: absolute;
+     
+    }
+
+}
