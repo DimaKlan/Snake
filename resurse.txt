@@ -1,0 +1,16 @@
+'npm i express'
+
+'npm instal mysql'
+
+'npm init' (config my paket) {package.json}
+
+'npm start' - start server
+
+https://o7planning.org/ru/11959/connecting-to-mysql-database-using-nodejs
+
+https://www.w3schools.com/nodejs/nodejs_mysql_insert.asp
+
+https://metanit.com/web/nodejs/8.6.php
+
+
+'ctrl+~' = console in VC
